@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="style.css">
+     <title>Verde Ação</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+
+      <h2>Verde Ação</h2>
+
+      <nav>
+
+        <ul>
+
+           <a href="#"> Atividades </a>
+           <a href="#"> Cadastre-se</a>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main>
+      <section class="background">
+
+        <h1>Verde Ação</h1>
+
+        <p>
+          Ser voluntário na Verde Ação é plantar esperança e colher
+          transformação. Juntos, cuidamos do planeta e inspiramos mudanças
+          reais!
+        </p>
+
+        <button>Quero Ser Voluntário</button>
+
+      </section>
+
+      <section class="cards">
+
+        <article class="card">
+
+          <img
+            src="assets/girassol.svg"
+            alt="Girassol florescendo em direção ao sol, simbolizando crescimento e vitalidade"
+          />
+
+          <h4>Plantio de mudas</h4>
+
+          <p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
+
+          <button>Ver Mais</button>
+
+        </article>
+
+        <article class="card">
+
+          <img
+            src="assets/criancas.svg"
+            alt="Crianças sorridentes participando de uma atividade educativa ao ar livre,sobre meio ambiente e sustentabilidade"
+          />
+          <h4>Educação Ambiental</h4>
+          <p>Promove oficinas e rodas de conversas</p>
+          <button>Ver Mais</button>
+        </article>
+
+        <article class="card">
+          <img
+            src="assets/plantacao.svg"
+            alt="Canteiros com mudas de árvores em cultivo comunitário ao ar livre"
+          />
+          <h4>Cuidados</h4>
+          <p>Ajude a manter areas preservadas</p>
+          <button>Ver Mais</button>
+        </article>
+
+        <article class="card">
+          <img src="assets/plantacao.svg" alt="Plantação de árvores" />
+          <h4>Mapeamento</h4>
+          <p>Indentifique areas que precisam de mapeamento</p>
+          <button>Ver Mais</button>
+        </article>
+
+      </section>
+
+      <section class="formulario_cadastro">
+
+        <form action="/cadastrar-voluntario" method="POST">
+
+          <fieldset>
+
+            <legend>Cadastre-se como Voluntário</legend>
+
+            <p>
+              Faça parte de ações que transformam o mundo. Com pequenas
+              atitudes, você pode gerar grandes impactos na natureza e na
+              comunidade.
+            </p>
+
+            <div class="form-group">
+
+              <label for="nome">Nome:</label>
+
+              <input
+                type="text"
+                id="nome"
+                name="nome_usuario"
+                placeholder="Nome"
+                required
+              />
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="email">E-mail:</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email_usuario"
+                placeholder="E-mail"
+                required
+              />
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="cidade">Cidade:</label>
+
+              <input
+                type="text"
+                id="cidade"
+                name="cidade_usuario"
+                placeholder="Cidade"
+                required
+              />
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="atividade">Atividade:</label>
+
+              <select id="atividade" name="atividade_escolhida" required>
+
+                <option value="">Selecione Atividade</option>
+                <option value="plantio">Plantio de Mudas</option>
+                <option value="limpeza">Limpeza de Praias/Parques</option>
+                <option value="educacao">Educação Ambiental</option>
+                <option value="reciclagem">Coleta Seletiva</option>
+
+              </select>
+
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+          </fieldset>
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer class="rodape-principal">
+
+      <p>&copy; Todos os direitos reservados</p>
+
+    </footer>
+
+  </body>
+  
+</html>
