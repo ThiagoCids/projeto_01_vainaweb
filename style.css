@@ -64,33 +64,34 @@ header nav a {
 .cards {
   background-color: #f1f8e9;
   text-align: center;
+  padding: 50px;
 }
 
 .card {
-  width: 20vw;
+  width: 15vw;
   height: 50vh;
-  background-color: #d65d5d;
-  border-radius: 20px;
-  border: solid red;
+  background-color: #FFFFFF;
+  border-radius: 15px;
   display: inline-block;
+  margin: 30px;
 }
 .card img {
   width: 100%;
-  border-radius: 20px 20px;
+  border-radius: 15px 15px 0 0;
 }
 .card h3 {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 1.75rem;
 }
 .card p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .card button {
-  margin-top: 30px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 5px;
   background-color: #66bb6a;
   color: #ffffff;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

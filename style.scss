@@ -73,28 +73,32 @@ header {
 .cards {
   background-color: #f1f8e9;
   text-align: center;
+  padding: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .card {
-  width: 20vw;
+  width: 15vw;
   height: 50vh;
-  background-color: #d65d5d;
-  border-radius: 20px;
-  border: solid red;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  //border: solid #FFFFFF;
   display: inline-block;
+  margin: 30px;
 
   img {
     width: 100%;
-    border-radius: 20px 20px;
+    //height: 46.24vh;
+    border-radius: 15px 15px 0 0;
   }
 
   h3 {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 1.75rem;
   }
 
   p {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   button {
