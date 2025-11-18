@@ -28,7 +28,6 @@ Quero ver toda a criatividade de vocês no Verde Ação!
 # Figma
 
 link: http://www.figma.com/design/EaumLQKHhPAeqajtGPeEzi/Verde-A%C3%A7%C3%A3o---Karynne-e-Fernanda?node-id=4004-18&t=LPZwV1dEP61VcGLT-0
-
 # Video Demonstrativo do Figma
 
 link: https://www.youtube.com/watch?v=REYaNny2M64&t=4s
