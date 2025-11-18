@@ -73,8 +73,6 @@ header {
 .cards {
   display: block;
   background-color: #f1f8e9;
-  
-  /* ✨ ADIÇÃO: Centraliza os elementos 'inline-block' contidos nele */
   text-align: center;
   height: 80vh;
   
@@ -93,7 +91,7 @@ header {
 
 
 
-  /* ✨ ADIÇÃO CRÍTICA: Alinha todos os cards pelo topo */
+  /*ADIÇÃO CRÍTICA: Alinha todos os cards pelo topo */
   vertical-align: top;
 
 
@@ -107,13 +105,17 @@ header {
     margin-top: 20px;
     font-size: 1.75rem;
     text-align: center;
+    font-family: "Roboto", sans-serif;
   }
 
   p {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    min-height: 50px; //Garante que todos os <p> tenham a mesma altura, impedindo que textos mais curtos deixem o botão subir.
+    font-size: 1.2rem;
+    //Garante que todos os <p> tenham a mesma altura, impedindo que textos mais curtos deixem o botão subir.
+    min-height: 50px; 
+    font-family: "Roboto", sans-serif;
 
   }
 
@@ -126,6 +128,7 @@ header {
     font-size: 1rem;
     border-radius: 30px;
     display: block;
+    font-family: "Roboto", sans-serif;
     
   }
 }
