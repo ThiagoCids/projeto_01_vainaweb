@@ -65,7 +65,6 @@ header nav a {
 .cards {
   display: block;
   background-color: #f1f8e9;
-  /* ✨ ADIÇÃO: Centraliza os elementos 'inline-block' contidos nele */
   text-align: center;
   height: 80vh;
 }
@@ -80,7 +79,7 @@ header nav a {
   text-align: center;
   margin: 30px;
   margin-top: 60px;
-  /* ✨ ADIÇÃO CRÍTICA: Alinha todos os cards pelo topo */
+  /*ADIÇÃO CRÍTICA: Alinha todos os cards pelo topo */
   vertical-align: top;
 }
 .card img {
@@ -92,12 +91,15 @@ header nav a {
   margin-top: 20px;
   font-size: 1.75rem;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 .card p {
   margin-top: 20px;
   text-align: center;
   padding: 10px;
+  font-size: 1.2rem;
   min-height: 50px;
+  font-family: "Roboto", sans-serif;
 }
 .card button {
   margin: 10px auto;
@@ -108,4 +110,82 @@ header nav a {
   font-size: 1rem;
   border-radius: 30px;
   display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ==================================== */
+/* 📝 ESTILOS DO FORMULÁRIO DE CADASTRO */
+/* ==================================== */
+.formulario_cadastro {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #E8F5E9; /* CORRIGIDO: Cor do Figma */
+}
+.formulario_cadastro h2 {
+  font-size: 2.5rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+.formulario_cadastro p {
+  font-size: 1rem;
+  color: #616161;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+.formulario_cadastro form {
+  max-width: 600px; /* AJUSTADO: Aumenta a largura do formulário */
+  margin: 0 auto;
+  padding: 35px; /* AJUSTADO: Aumenta o padding interno */
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.formulario_cadastro form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.formulario_cadastro form div {
+  margin-bottom: 25px; /* AJUSTADO: Mais espaço entre os campos */
+  text-align: left;
+}
+.formulario_cadastro form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px; /* AJUSTADO: Mais espaço entre o label e o input */
+  color: #4CAF50;
+  font-size: 1.1rem;
+}
+.formulario_cadastro form input[type=text],
+.formulario_cadastro form input[type=email],
+.formulario_cadastro form select {
+  width: 100%;
+  padding: 14px 18px; /* AJUSTADO: Padding maior */
+  border: 2px solid #a5d6a7;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 1.1rem; /* AJUSTADO: Tamanho da fonte levemente maior */
+  outline: none;
+  transition: border-color 0.3s;
+}
+.formulario_cadastro form input[type=text]:focus,
+.formulario_cadastro form input[type=email]:focus,
+.formulario_cadastro form select:focus {
+  border-color: #66bb6a;
+}
+.formulario_cadastro form button[type=submit] {
+  width: 100%;
+  padding: 15px;
+  background-color: #66bb6a;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+.formulario_cadastro form button[type=submit]:hover {
+  background-color: #4CAF50;
 }/*# sourceMappingURL=style.css.map */

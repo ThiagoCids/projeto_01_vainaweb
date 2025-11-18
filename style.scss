@@ -132,3 +132,91 @@ header {
     
   }
 }
+
+
+
+/* ==================================== */
+/* 📝 ESTILOS DO FORMULÁRIO DE CADASTRO */
+/* ==================================== */
+
+.formulario_cadastro {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #E8F5E9; /* CORRIGIDO: Cor do Figma */
+    
+    h2 {
+        font-size: 2.5rem;
+        color: #388e3c;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 1rem;
+        color: #616161;
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+    }
+
+    form {
+        max-width: 600px; /* AJUSTADO: Aumenta a largura do formulário */
+        margin: 0 auto;
+        padding: 35px; /* AJUSTADO: Aumenta o padding interno */
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            margin-bottom: 25px; /* AJUSTADO: Mais espaço entre os campos */
+            text-align: left; 
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px; /* AJUSTADO: Mais espaço entre o label e o input */
+            color: #4CAF50;
+            font-size: 1.1rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 14px 18px; /* AJUSTADO: Padding maior */
+            border: 2px solid #a5d6a7;
+            border-radius: 25px;
+            box-sizing: border-box; 
+            font-size: 1.1rem; /* AJUSTADO: Tamanho da fonte levemente maior */
+            outline: none;
+            transition: border-color 0.3s;
+
+            &:focus {
+                border-color: #66bb6a;
+            }
+        }
+        
+        button[type="submit"] {
+            width: 100%; 
+            padding: 15px;
+            background-color: #66bb6a;
+            color: #ffffff;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #4CAF50;
+            }
+        }
+    }
+}
